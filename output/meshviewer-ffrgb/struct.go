@@ -3,8 +3,8 @@ package meshviewerFFRGB
 import (
 	"time"
 
-	"github.com/FreifunkBremen/yanic/lib/jsontime"
-	"github.com/FreifunkBremen/yanic/runtime"
+	"chaos.expert/FreifunkBremen/yanic/lib/jsontime"
+	"chaos.expert/FreifunkBremen/yanic/runtime"
 )
 
 type Meshviewer struct {
@@ -126,7 +126,7 @@ func NewNode(nodes *runtime.Nodes, n *runtime.Node) *Node {
 		/* The Meshviewer could not handle absolute memory output
 		 * calc the used memory as a float which 100% equal 1.0
 		 * calc is coppied from node statuspage (look discussion:
-		 * https://github.com/FreifunkBremen/yanic/issues/35)
+		 * https://chaos.expert/FreifunkBremen/yanic/issues/35)
 		 */
 		if statistic.Memory.Total > 0 {
 			usage := 1 - (float64(statistic.Memory.Free)+float64(statistic.Memory.Buffers)+float64(statistic.Memory.Cached))/float64(statistic.Memory.Total)

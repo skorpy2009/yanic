@@ -1,6 +1,6 @@
 package main
 
-import "github.com/FreifunkBremen/yanic/cmd"
+import "chaos.expert/FreifunkBremen/yanic/cmd"
 
 func main() {
 	cmd.Execute()

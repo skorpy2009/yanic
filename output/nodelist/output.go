@@ -3,8 +3,8 @@ package nodelist
 import (
 	"errors"
 
-	"github.com/FreifunkBremen/yanic/output"
-	"github.com/FreifunkBremen/yanic/runtime"
+	"chaos.expert/FreifunkBremen/yanic/output"
+	"chaos.expert/FreifunkBremen/yanic/runtime"
 )
 
 type Output struct {

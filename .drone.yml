@@ -1,6 +1,6 @@
 workspace:
   base: /go
-  path: src/github.com/FreifunkBremen/yanic
+  path: src/chaos.expert/FreifunkBremen/yanic
 
 pipeline:
   build:

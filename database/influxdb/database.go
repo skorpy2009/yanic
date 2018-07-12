@@ -8,7 +8,7 @@ import (
 	"github.com/influxdata/influxdb/client/v2"
 	"github.com/influxdata/influxdb/models"
 
-	"github.com/FreifunkBremen/yanic/database"
+	"chaos.expert/FreifunkBremen/yanic/database"
 )
 
 const (

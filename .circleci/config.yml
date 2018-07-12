@@ -3,19 +3,19 @@ jobs:
   build:
     docker:
       - image: circleci/golang:latest
-    working_directory: /go/src/github.com/FreifunkBremen/yanic
+    working_directory: /go/src/chaos.expert/FreifunkBremen/yanic
     steps:
       - checkout
       - run: curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
       - run: dep ensure
-      - run: go install -ldflags "-X github.com/FreifunkBremen/yanic/cmd.VERSION=`git -C $GOPATH/src/github.com/FreifunkBremen/yanic rev-parse HEAD`" github.com/FreifunkBremen/yanic
+      - run: go install -ldflags "-X chaos.expert/FreifunkBremen/yanic/cmd.VERSION=`git -C $GOPATH/src/chaos.expert/FreifunkBremen/yanic rev-parse HEAD`" chaos.expert/FreifunkBremen/yanic
       - store_artifacts:
           path: /go/bin/
           destination: yanic
   test:
     docker:
       - image: circleci/golang:latest
-    working_directory: /go/src/github.com/FreifunkBremen/yanic
+    working_directory: /go/src/chaos.expert/FreifunkBremen/yanic
     steps:
       - checkout
       - run: curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
@@ -31,7 +31,7 @@ jobs:
   test_race:
     docker:
       - image: circleci/golang:latest
-    working_directory: /go/src/github.com/FreifunkBremen/yanic
+    working_directory: /go/src/chaos.expert/FreifunkBremen/yanic
     steps:
       - checkout
       - run: curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh

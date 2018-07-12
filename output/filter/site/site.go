@@ -3,8 +3,8 @@ package site
 import (
 	"errors"
 
-	"github.com/FreifunkBremen/yanic/output/filter"
-	"github.com/FreifunkBremen/yanic/runtime"
+	"chaos.expert/FreifunkBremen/yanic/output/filter"
+	"chaos.expert/FreifunkBremen/yanic/runtime"
 )
 
 type sites map[string]interface{}

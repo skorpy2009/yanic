@@ -3,7 +3,7 @@ package graphite
 import (
 	"time"
 
-	"github.com/FreifunkBremen/yanic/runtime"
+	"chaos.expert/FreifunkBremen/yanic/runtime"
 	"github.com/fgrosse/graphigo"
 )
 

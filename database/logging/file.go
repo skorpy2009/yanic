@@ -11,8 +11,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/FreifunkBremen/yanic/database"
-	"github.com/FreifunkBremen/yanic/runtime"
+	"chaos.expert/FreifunkBremen/yanic/database"
+	"chaos.expert/FreifunkBremen/yanic/runtime"
 )
 
 type Connection struct {

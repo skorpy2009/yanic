@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/FreifunkBremen/yanic/respond"
-	"github.com/FreifunkBremen/yanic/runtime"
+	"chaos.expert/FreifunkBremen/yanic/respond"
+	"chaos.expert/FreifunkBremen/yanic/runtime"
 	"github.com/spf13/cobra"
 )
 

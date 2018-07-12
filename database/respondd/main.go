@@ -11,9 +11,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/FreifunkBremen/yanic/data"
-	"github.com/FreifunkBremen/yanic/database"
-	"github.com/FreifunkBremen/yanic/runtime"
+	"chaos.expert/FreifunkBremen/yanic/data"
+	"chaos.expert/FreifunkBremen/yanic/database"
+	"chaos.expert/FreifunkBremen/yanic/runtime"
 )
 
 type Connection struct {

@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FreifunkBremen/yanic/runtime"
+	"chaos.expert/FreifunkBremen/yanic/runtime"
 	"github.com/stretchr/testify/assert"
 )
 

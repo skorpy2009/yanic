@@ -7,11 +7,11 @@ import (
 	"syscall"
 	"time"
 
-	allDatabase "github.com/FreifunkBremen/yanic/database/all"
-	allOutput "github.com/FreifunkBremen/yanic/output/all"
-	"github.com/FreifunkBremen/yanic/respond"
-	"github.com/FreifunkBremen/yanic/runtime"
-	"github.com/FreifunkBremen/yanic/webserver"
+	allDatabase "chaos.expert/FreifunkBremen/yanic/database/all"
+	allOutput "chaos.expert/FreifunkBremen/yanic/output/all"
+	"chaos.expert/FreifunkBremen/yanic/respond"
+	"chaos.expert/FreifunkBremen/yanic/runtime"
+	"chaos.expert/FreifunkBremen/yanic/webserver"
 	"github.com/spf13/cobra"
 )
 

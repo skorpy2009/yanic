@@ -3,8 +3,8 @@ package inarea
 import (
 	"testing"
 
-	"github.com/FreifunkBremen/yanic/data"
-	"github.com/FreifunkBremen/yanic/runtime"
+	"chaos.expert/FreifunkBremen/yanic/data"
+	"chaos.expert/FreifunkBremen/yanic/runtime"
 	"github.com/stretchr/testify/assert"
 )
 

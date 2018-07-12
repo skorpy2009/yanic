@@ -8,7 +8,7 @@ import (
 	client "github.com/influxdata/influxdb/client/v2"
 	models "github.com/influxdata/influxdb/models"
 
-	"github.com/FreifunkBremen/yanic/runtime"
+	"chaos.expert/FreifunkBremen/yanic/runtime"
 )
 
 // PruneNodes prunes historical per-node data

@@ -23,13 +23,13 @@ export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 ### Compile
 As root:
 ```sh
-go get -v -u github.com/FreifunkBremen/yanic
+go get -v -u chaos.expert/FreifunkBremen/yanic
 ```
 
 ### Install
 
 ```sh
-cp /opt/go/src/github.com/FreifunkBremen/yanic/contrib/init/linux-systemd/yanic.service /lib/systemd/system/yanic.service
+cp /opt/go/src/chaos.expert/FreifunkBremen/yanic/contrib/init/linux-systemd/yanic.service /lib/systemd/system/yanic.service
 systemctl daemon-reload
 ```
 
@@ -49,9 +49,9 @@ systemctl enable yanic
 For an update just stop yanic and then call the same `go` command again (again as root):
 ```sh
 systemctl stop yanic
-go get -v -u github.com/FreifunkBremen/yanic
+go get -v -u chaos.expert/FreifunkBremen/yanic
 ```
 Then update the config file, for example look at the diff with the new example:
 ```sh
-diff /opt/go/src/github.com/FreifunkBremen/yanic/config_example.toml /etc/yanic.conf
+diff /opt/go/src/chaos.expert/FreifunkBremen/yanic/config_example.toml /etc/yanic.conf
 ```

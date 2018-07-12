@@ -1,11 +1,11 @@
 package all
 
 import (
-	_ "github.com/FreifunkBremen/yanic/output/filter/blacklist"
-	_ "github.com/FreifunkBremen/yanic/output/filter/domainappendsite"
-	_ "github.com/FreifunkBremen/yanic/output/filter/domainassite"
-	_ "github.com/FreifunkBremen/yanic/output/filter/haslocation"
-	_ "github.com/FreifunkBremen/yanic/output/filter/inarea"
-	_ "github.com/FreifunkBremen/yanic/output/filter/noowner"
-	_ "github.com/FreifunkBremen/yanic/output/filter/site"
+	_ "chaos.expert/FreifunkBremen/yanic/output/filter/blacklist"
+	_ "chaos.expert/FreifunkBremen/yanic/output/filter/domainappendsite"
+	_ "chaos.expert/FreifunkBremen/yanic/output/filter/domainassite"
+	_ "chaos.expert/FreifunkBremen/yanic/output/filter/haslocation"
+	_ "chaos.expert/FreifunkBremen/yanic/output/filter/inarea"
+	_ "chaos.expert/FreifunkBremen/yanic/output/filter/noowner"
+	_ "chaos.expert/FreifunkBremen/yanic/output/filter/site"
 )

@@ -22,7 +22,7 @@ export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 ### Compile
 As root:
 ```sh
-go get -v -u github.com/FreifunkBremen/yanic
+go get -v -u chaos.expert/FreifunkBremen/yanic
 ```
 
 #### Work with other databases
@@ -32,7 +32,7 @@ welcome. Just fork this project and create another subpackage within the folder
 
 ### Configure Yanic
 ```sh
-cp /opt/go/src/github.com/FreifunkBremen/yanic/config_example.toml /etc/yanic.conf
+cp /opt/go/src/chaos.expert/FreifunkBremen/yanic/config_example.toml /etc/yanic.conf
 ```
 For an easy startup you only need to edit the `interfaces` in section
 `[respondd]` in file `/etc/yanic.conf`.  
@@ -60,7 +60,7 @@ the same directory as the `dataPath`. Change the path in the section
 
 ### Service
 ```sh
-cp /opt/go/src/github.com/FreifunkBremen/yanic/contrib/init/linux-systemd/yanic.service /lib/systemd/system/yanic.service
+cp /opt/go/src/chaos.expert/FreifunkBremen/yanic/contrib/init/linux-systemd/yanic.service /lib/systemd/system/yanic.service
 systemctl daemon-reload
 systemctl start yanic
 systemctl enable yanic
@@ -70,9 +70,9 @@ systemctl enable yanic
 For an update just stop yanic and then call the same `go` command again (again as root):
 ```sh
 systemctl stop yanic
-go get -v -u github.com/FreifunkBremen/yanic
+go get -v -u chaos.expert/FreifunkBremen/yanic
 ```
 Then update the config file, for example look at the diff with the new example:
 ```sh
-diff /opt/go/src/github.com/FreifunkBremen/yanic/config_example.toml /etc/yanic.conf
+diff /opt/go/src/chaos.expert/FreifunkBremen/yanic/config_example.toml /etc/yanic.conf
 ```

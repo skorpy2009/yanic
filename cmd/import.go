@@ -3,9 +3,9 @@ package cmd
 import (
 	"log"
 
-	allDatabase "github.com/FreifunkBremen/yanic/database/all"
-	"github.com/FreifunkBremen/yanic/rrd"
-	"github.com/FreifunkBremen/yanic/runtime"
+	allDatabase "chaos.expert/FreifunkBremen/yanic/database/all"
+	"chaos.expert/FreifunkBremen/yanic/rrd"
+	"chaos.expert/FreifunkBremen/yanic/runtime"
 	"github.com/spf13/cobra"
 )
 

@@ -1,8 +1,8 @@
 package all
 
 import (
-	_ "github.com/FreifunkBremen/yanic/database/graphite"
-	_ "github.com/FreifunkBremen/yanic/database/influxdb"
-	_ "github.com/FreifunkBremen/yanic/database/logging"
-	_ "github.com/FreifunkBremen/yanic/database/respondd"
+	_ "chaos.expert/FreifunkBremen/yanic/database/graphite"
+	_ "chaos.expert/FreifunkBremen/yanic/database/influxdb"
+	_ "chaos.expert/FreifunkBremen/yanic/database/logging"
+	_ "chaos.expert/FreifunkBremen/yanic/database/respondd"
 )

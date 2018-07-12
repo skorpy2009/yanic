@@ -3,7 +3,7 @@ package filter
 import (
 	"fmt"
 
-	"github.com/FreifunkBremen/yanic/runtime"
+	"chaos.expert/FreifunkBremen/yanic/runtime"
 	"github.com/pkg/errors"
 )
 

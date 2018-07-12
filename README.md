@@ -11,7 +11,7 @@ Yet another node info collector
 [![CircleCI](https://circleci.com/gh/FreifunkBremen/yanic/tree/master.svg?style=shield)](https://circleci.com/gh/FreifunkBremen/yanic/tree/master)
 [![Coverage Status](https://coveralls.io/repos/github/FreifunkBremen/yanic/badge.svg?branch=master)](https://coveralls.io/github/FreifunkBremen/yanic?branch=master)
 [![codecov](https://codecov.io/gh/FreifunkBremen/yanic/branch/master/graph/badge.svg)](https://codecov.io/gh/FreifunkBremen/yanic)
-[![Go Report Card](https://goreportcard.com/badge/github.com/FreifunkBremen/yanic)](https://goreportcard.com/report/github.com/FreifunkBremen/yanic)
+[![Go Report Card](https://goreportcard.com/badge/chaos.expert/FreifunkBremen/yanic)](https://goreportcard.com/report/chaos.expert/FreifunkBremen/yanic)
 
 `yanic` is a respondd client that fetches, stores and publishes information about a Freifunk network. The goals:
 * Generating JSON for [Meshviewer](https://github.com/ffrgb/meshviewer)
@@ -24,7 +24,7 @@ In the first step Yanic sends a multicast message to the group `ff02:0:0:0:0:0:2
 Recently seen nodes that does not reply are requested via a unicast message.
 
 ## Documentation
-Take a look at the [git](https://github.com/FreifunkBremen/yanic/blob/master/SUMMARY.md) or [Gitbook](https://freifunkbremen.gitbooks.io/yanic/content/)
+Take a look at the [git](https://chaos.expert/FreifunkBremen/yanic/blob/master/SUMMARY.md) or [Gitbook](https://freifunkbremen.gitbooks.io/yanic/content/)
 
 
 ## Configuration
@@ -105,7 +105,7 @@ Flags:
 * **Freifunk Nord** uses [hopglass](https://github.com/hopglass/hopglass) (commit 587740a) as frontend:  https://mesh.freifunknord.de/
 * **Freifunk Kiel** uses [Meshviewer](https://github.com/ffrgb/meshviewer/) as frontend: https://map.freifunk.in-kiel.de/
 
-Do you know someone else using Yanic? Create a [pull request](https://github.com/FreifunkBremen/yanic/issues/new?template=community.md&title=Mention+community+$name)!
+Do you know someone else using Yanic? Create a [pull request](https://chaos.expert/FreifunkBremen/yanic/issues/new?template=community.md&title=Mention+community+$name)!
 
 ## Related projects
 
